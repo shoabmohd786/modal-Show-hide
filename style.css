@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif,'Times New Roman', Times, serif
+}
+.modal{
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 2px #adacaccc;
+    position: fixed;
+    top: -500px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+}
+#btn{
+    padding: 10px 20px;
+    color: blue;
+}
+.modal h2{
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+.modal h2 span{
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.showModal{
+    top: 50%;
+}
+
+
+
+#btn2{
+    padding: 10px 20px;
+    color: red;
+}
